@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			*{
+				padding: 0;
+				margin: 0;
+			}
+			.qi{
+				position: absolute;
+				top: 10px;
+				left: 10px;
+				width: 194px;
+				height: 294px;
+				border-width: 3px;
+				border-style: solid;
+				border-radius: 10px;
+				border-color: #000000;
+			}
+			.qi_1{
+				position: absolute;
+				width: 50px;
+				height: 50px;
+				background-color: red;
+				border-radius: 1000px;
+				top: 160px;
+				left: 60px;
+			}
+			.qi_1_1{
+				position: absolute;
+				width: 36px;
+				height: 36px;
+				background-color: white;
+				border-radius: 1000px;
+				top: 167px;
+				left: 67px;
+			}
+			.qi_1_2{
+				position: absolute;
+				width: 22px;
+				height: 22px;
+				background-color: red;
+				border-radius: 1000px;
+				top: 174px;
+				left: 74px;
+			}
+			.qi_1_3{
+				position: absolute;
+				width: 14px;
+				height: 14px;
+				background-color: white;
+				border-radius: 1000px;
+				top: 178px;
+				left: 78px;
+			}
+			.qi_1_4{
+				position: absolute;
+				width: 6px;
+				height: 6px;
+				background-color: red;
+				border-radius: 1000px;
+				top: 182px;
+				left: 82px;
+			}
+			
+			.qi_2{
+				position: absolute;
+				width: 50px;
+				height: 50px;
+				background-color: red;
+				border-radius: 1000px;
+				top: 160px;
+				left: 110px;
+			}
+			.qi_2_1{
+				position: absolute;
+				width: 36px;
+				height: 36px;
+				background-color: white;
+				border-radius: 1000px;
+				top: 167px;
+				left: 117px;
+			}
+			.qi_2_2{
+				position: absolute;
+				width: 22px;
+				height: 22px;
+				background-color: red;
+				border-radius: 1000px;
+				top: 174px;
+				left: 124px;
+			}
+			.qi_2_3{
+				position: absolute;
+				width: 14px;
+				height: 14px;
+				background-color: white;
+				border-radius: 1000px;
+				top: 178px;
+				left: 128px;
+			}
+			.qi_2_4{
+				position: absolute;
+				width: 6px;
+				height: 6px;
+				background-color: red;
+				border-radius: 1000px;
+				top: 182px;
+				left: 132px;
+			}
+			
+			.qi_3{
+				position: absolute;
+				width: 50px;
+				height: 50px;
+				background-color: red;
+				border-radius: 1000px;
+				top: 210px;
+				left: 60px;
+			}
+			.qi_3_1{
+				position: absolute;
+				width: 36px;
+				height: 36px;
+				background-color: white;
+				border-radius: 1000px;
+				top: 217px;
+				left: 67px;
+			}
+			.qi_3_2{
+				position: absolute;
+				width: 22px;
+				height: 22px;
+				background-color: red;
+				border-radius: 1000px;
+				top: 224px;
+				left: 74px;
+			}
+			.qi_3_3{
+				position: absolute;
+				width: 14px;
+				height: 14px;
+				background-color: white;
+				border-radius: 1000px;
+				top: 228px;
+				left: 78px;
+			}
+			.qi_3_4{
+				position: absolute;
+				width: 6px;
+				height: 6px;
+				background-color: red;
+				border-radius: 1000px;
+				top: 232px;
+				left: 82px;
+			}
+			
+			.qi_4{
+				position: absolute;
+				width: 50px;
+				height: 50px;
+				background-color: red;
+				border-radius: 1000px;
+				top: 210px;
+				left: 110px;
+			}
+			.qi_4_1{
+				position: absolute;
+				width: 36px;
+				height: 36px;
+				background-color: white;
+				border-radius: 1000px;
+				top: 217px;
+				left: 117px;
+			}
+			.qi_4_2{
+				position: absolute;
+				width: 22px;
+				height: 22px;
+				background-color: red;
+				border-radius: 1000px;
+				top: 224px;
+				left: 124px;
+			}
+			.qi_4_3{
+				position: absolute;
+				width: 14px;
+				height: 14px;
+				background-color: white;
+				border-radius: 1000px;
+				top: 228px;
+				left: 128px;
+			}
+			.qi_4_4{
+				position: absolute;
+				width: 6px;
+				height: 6px;
+				background-color: red;
+				border-radius: 1000px;
+				top: 232px;
+				left: 132px;
+			}
+			
+			.qi_5{
+				position: absolute;
+				width: 50px;
+				height: 50px;
+				background-color: green;
+				border-radius: 1000px;
+				top: 117px;
+				left: 135px;
+			}
+			.qi_5_1{
+				position: absolute;
+				width: 36px;
+				height: 36px;
+				background-color: white;
+				border-radius: 1000px;
+				top: 124px;
+				left: 142px;
+			}
+			.qi_5_2{
+				position: absolute;
+				width: 22px;
+				height: 22px;
+				background-color: green;
+				border-radius: 1000px;
+				top: 131px;
+				left: 149px;
+			}
+			.qi_5_3{
+				position: absolute;
+				width: 14px;
+				height: 14px;
+				background-color: white;
+				border-radius: 1000px;
+				top: 135px;
+				left: 153px;
+			}
+			.qi_5_4{
+				position: absolute;
+				width: 6px;
+				height: 6px;
+				background-color: green;
+				border-radius: 1000px;
+				top: 139px;
+				left: 158px;
+			}
+			
+			.qi_6{
+				position: absolute;
+				width: 50px;
+				height: 50px;
+				background-color: green;
+				border-radius: 1000px;
+				top: 87px;
+				left: 97px;
+			}
+			.qi_6_1{
+				position: absolute;
+				width: 36px;
+				height: 36px;
+				background-color: white;
+				border-radius: 1000px;
+				top: 94px;
+				left: 104px;
+			}
+			.qi_6_2{
+				position: absolute;
+				width: 22px;
+				height: 22px;
+				background-color: green;
+				border-radius: 1000px;
+				top: 101px;
+				left: 111px;
+			}
+			.qi_6_3{
+				position: absolute;
+				width: 14px;
+				height: 14px;
+				background-color: white;
+				border-radius: 1000px;
+				top: 105px;
+				left: 115px;
+			}
+			.qi_6_4{
+				position: absolute;
+				width: 6px;
+				height: 6px;
+				background-color: green;
+				border-radius: 1000px;
+				top: 109px;
+				left: 120px;
+			}
+			
+			.qi_7{
+				position: absolute;
+				width: 50px;
+				height: 50px;
+				background-color: green;
+				border-radius: 1000px;
+				top: 57px;
+				left: 59px;
+			}
+			.qi_7_1{
+				position: absolute;
+				width: 36px;
+				height: 36px;
+				background-color: white;
+				border-radius: 1000px;
+				top: 64px;
+				left: 66px;
+			}
+			.qi_7_2{
+				position: absolute;
+				width: 22px;
+				height: 22px;
+				background-color: green;
+				border-radius: 1000px;
+				top: 71px;
+				left: 73px;
+			}
+			.qi_7_3{
+				position: absolute;
+				width: 14px;
+				height: 14px;
+				background-color: white;
+				border-radius: 1000px;
+				top: 75px;
+				left: 77px;
+			}
+			.qi_7_4{
+				position: absolute;
+				width: 6px;
+				height: 6px;
+				background-color: green;
+				border-radius: 1000px;
+				top: 79px;
+				left: 81px;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<div class="qi"></div>
+		
+		<div class="qi_1"></div>
+		<div class="qi_1_1"></div>
+		<div class="qi_1_2"></div>
+		<div class="qi_1_3"></div>
+		<div class="qi_1_4"></div>
+		
+		<div class="qi_2"></div>
+		<div class="qi_2_1"></div>
+		<div class="qi_2_2"></div>
+		<div class="qi_2_3"></div>
+		<div class="qi_2_4"></div>
+		
+		<div class="qi_3"></div>
+		<div class="qi_3_1"></div>
+		<div class="qi_3_2"></div>
+		<div class="qi_3_3"></div>
+		<div class="qi_3_4"></div>
+		
+		<div class="qi_4"></div>
+		<div class="qi_4_1"></div>
+		<div class="qi_4_2"></div>
+		<div class="qi_4_3"></div>
+		<div class="qi_4_4"></div>
+		
+		<div class="qi_5"></div>
+		<div class="qi_5_1"></div>
+		<div class="qi_5_2"></div>
+		<div class="qi_5_3"></div>
+		<div class="qi_5_4"></div>
+		
+		<div class="qi_6"></div>
+		<div class="qi_6_1"></div>
+		<div class="qi_6_2"></div>
+		<div class="qi_6_3"></div>
+		<div class="qi_6_4"></div>
+		
+		<div class="qi_7"></div>
+		<div class="qi_7_1"></div>
+		<div class="qi_7_2"></div>
+		<div class="qi_7_3"></div>
+		<div class="qi_7_4"></div>
+	</body>
+</html>
